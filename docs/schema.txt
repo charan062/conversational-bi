@@ -1,0 +1,27 @@
+Table: customers
+Description: Stores customer information
+Columns:
+- customer_id: unique customer identifier
+- name: customer name
+- country: customer country
+- signup_date: date when customer signed up
+- segment: business segment of customer
+
+Table: products
+Description: Stores product information
+Columns:
+- product_id: unique product identifier
+- name: product name
+- category: product category
+- price: selling price
+- cost: cost price
+
+Table: orders
+Description: Stores order transactions
+Columns:
+- order_id: unique order identifier
+- customer_id: customer who placed the order
+- product_id: product ordered
+- order_date: date of order
+- quantity: number of items
+- total_amount: total order value
